@@ -3,14 +3,14 @@
 puts "Give me a number and let's check"
 int = gets.strip
 def fizzbuzz(int)
-if int %3 == 0 && int % 5 == 0
-  return puts "FizzBuzz"
-elsif int%5 == 0
-  return puts "Buzz"
-elsif int%3 == 0
-  return puts "Fizz"
-else
-  return nil
-end
+  if int %3 == 0 && int % 5 == 0
+    return puts "FizzBuzz"
+  elsif int%5 == 0
+    return puts "Buzz"
+  elsif int%3 == 0
+    return puts "Fizz"
+  else
+    return nil
+  end
 end
 fizzbuzz(int)
