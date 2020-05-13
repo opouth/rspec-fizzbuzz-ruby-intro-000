@@ -3,7 +3,5 @@
 #puts "Give me a number and let's check"
 #int = gets.strip
 def fizzbuzz(number)
-  
-end
 
-fizzbuzz(number)
+end
