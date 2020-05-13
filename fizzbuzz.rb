@@ -12,6 +12,6 @@ def fizzbuzz(int)
   else
     puts nil
   end
-  fizzbuzz
+
 end
 fizzbuzz(int)
