@@ -4,13 +4,13 @@ puts "Give me a number and let's check"
 int = gets.strip
 def fizzbuzz(int)
   if int %3 == 0 && int % 5 == 0
-    return puts "FizzBuzz"
+     puts "FizzBuzz"
   elsif int%5 == 0
-    return puts "Buzz"
+     puts "Buzz"
   elsif int%3 == 0
-    return puts "Fizz"
+     puts "Fizz"
   else
-    return nil
+    puts nil
   end
   fizzbuzz
 end
