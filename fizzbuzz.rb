@@ -2,6 +2,6 @@
 # See README.md for instructions on how to do this
 #puts "Give me a number and let's check"
 #int = gets.strip
-def fizzbuzz(number)
+#def fizzbuzz(number)
 
-end
+#end
