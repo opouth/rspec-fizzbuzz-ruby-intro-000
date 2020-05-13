@@ -2,16 +2,16 @@
 # See README.md for instructions on how to do this
 #puts "Give me a number and let's check"
 #int = gets.strip
-def fizzbuzz(int)
-  if int %3 == 0 && int % 5 == 0
-     puts "FizzBuzz"
-  elsif int%5 == 0
-     puts "Buzz"
-  elsif int%3 == 0
-     puts "Fizz"
+def fizzbuzz(number)
+  if number %3 == 0 && number % 5 == 0
+     "FizzBuzz"
+  elsif number%5 == 0
+     "Buzz"
+  elsif number%3 == 0
+    "Fizz"
   else
     puts nil
   end
 end
 
-fizzbuzz(int)
+fizzbuzz(number)
