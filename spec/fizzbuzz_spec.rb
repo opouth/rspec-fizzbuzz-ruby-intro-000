@@ -1,7 +1,4 @@
 require_relative './spec_helper.rb'
-require_relative '../fizzbuzz.rb'
-require_relative '../spec/fizzbuzz_spec.rb'
-require_relative '/home/excellent-state-7204/rspec-fizzbuzz-ruby-intro-000/fizzbuzz.rb'
 
 
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
