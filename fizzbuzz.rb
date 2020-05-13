@@ -14,4 +14,4 @@ def fizzbuzz(int)
   end
 
 end
-fizzbuzz(int)
+puts fizzbuzz(int)
